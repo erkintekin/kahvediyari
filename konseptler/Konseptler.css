@@ -1,0 +1,667 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  line-height: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Awesome";
+  src: url(./fontawesome-webfont.woff2);
+}
+@font-face {
+  font-family: "Vag";
+  src: url(./Vag.woff2);
+}
+@font-face {
+  font-family: "VagBT";
+  src: url(./VAGRoundedBT.woff2);
+}
+@font-face {
+  font-family: "kahve-diyari";
+  src: url(./VAGRON.TTF);
+}
+@font-face {
+  font-family: "kahve-diyari-thin";
+  src: url(./Monotype\ \ -\ VAG\ Rounded\ Next\ Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+/*NAVBAR BAŞLANGIÇ*/
+.navbar a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* navbar-- */
+nav {
+  padding-top: 10px;
+  min-height: 124px;
+  font-family: "VAGRoundedBT", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+.logo {
+  padding: 0;
+  margin-left: 200px;
+}
+
+.nav-right {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menus li {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "kahve-diyari", sans-serif;
+}
+
+.cizgi {
+  width: 32px;
+  height: 22px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+}
+.middle {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+  top: 9px;
+}
+.bottom {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+  top: 18px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.languages li {
+  display: inline-block;
+  font-size: 18px;
+}
+nav a {
+  color: #00524d !important;
+}
+
+/*NAVBAR BİTİŞ*/
+
+/* HEADER BAŞLANGIÇ */
+.container-header {
+  width: 100%;
+  height: 210px;
+  background-color: #06514d;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.ana-kur {
+  height: 50px;
+  font-family: "Vag", sans-serif;
+  padding-left: 16rem !important;
+  font-size: 18px !important;
+}
+
+.ana-kur a {
+  color: white;
+  text-decoration: none;
+}
+.ana-kur h1 {
+  color: white;
+}
+
+.ka-di {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+  font-weight: 400;
+  font-size: 90px;
+  font-family: "VAGRoundedBT", sans-serif;
+  position: absolute;
+  top: 60px;
+}
+.kur {
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 70px;
+  font-size: 40px;
+  font-family: "Vag", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 45%;
+}
+/* HEADER BİTİŞ */
+
+/*Konsept Başlangıç*/
+
+.baslik {
+  max-width: 365px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 82, 77);
+  font-size: 42px;
+  text-align: center;
+  font-family: "VagBT", sans-serif;
+}
+
+.orta {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.orta-left {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.orta-mid {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.orta-right {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.content {
+  max-width: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content::before {
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(https://www.kahvediyari.com.tr/images/fon-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.content-mid {
+  max-width: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content-mid::before {
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(https://www.kahvediyari.com.tr/images/fon-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.icon {
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: 3;
+  transform: translateX(-50%);
+}
+
+.icon img {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 13px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+.info span {
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Vag" sans-serif;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.info strong {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: "VagBT", sans-serif;
+}
+
+.info a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "VagBT", sans-serif;
+}
+
+.icon-tikla {
+  width: auto;
+  display: block;
+  float: right;
+  margin-right: 25px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px "Awesome";
+  font-family: "Awesome";
+}
+
+.fa.fa-angle-right {
+  margin-left: 10px;
+  font-size: 35px;
+  display: inline-block;
+  font: normal;
+  text-rendering: auto;
+}
+
+.fa.fa-angle-right::before {
+  content: "\f105";
+}
+
+/*Konsept Bitiş*/
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: 700px;
+  padding: 100px 0;
+  background-color: #00524d;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+}
+footer a {
+  color: white;
+}
+.footer-menu {
+  width: 100%;
+  height: 600px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info {
+  max-width: 340px;
+}
+
+footer .footer-menu .footer-info p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.footer-info .social-medias i {
+  font-size: 35px;
+}
+
+.footer-info .phone {
+  font-size: 25px;
+  font-family: "kahve-diyari";
+}
+
+.footer-links .bayi-giris {
+  background-color: #dd8c33;
+  color: white;
+  padding: 15px 40px;
+}
+
+footer .footer-menu .social-medias li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-links ul {
+  margin-bottom: 50px;
+  padding: 0;
+}
+.footer-links {
+  width: 265px;
+}
+footer .footer-links li {
+  margin-top: 10px;
+}
+
+.footer-area {
+  text-align: right;
+}
+.footer-area .mobil-uygulama {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.footer-area p {
+  color: #d98833;
+  margin-bottom: 100px;
+}
+.footer-area li {
+  display: inline-block;
+}
+
+.copywright-kahve {
+  overflow: hidden;
+  padding: 30px 30px;
+  font-size: 18px;
+  display: flex;
+}
+
+.responsive-img {
+  vertical-align: bottom;
+}
+.responsive-img img {
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.online-refer {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  right: 0 !important;
+  top: 50%;
+  z-index: 1;
+  overflow: hidden !important;
+}
+.online-refer a {
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1120px) {
+  .menus {
+    display: none;
+  }
+  .nav-right {
+    width: 50%;
+  }
+
+  footer {
+    padding-top: 50px;
+    height: 1090px;
+  }
+  .footer-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+    font-size: 14.5px;
+    text-align: center;
+  }
+  .footer-info {
+    margin: auto;
+  }
+
+  .footer-links {
+    margin: auto;
+  }
+  .footer-area {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .footer-area p {
+    margin-bottom: 25px;
+  }
+  .copywright-kahve {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-right {
+    display: block;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar .phone {
+    display: none;
+  }
+  .footer-info .social-medias i {
+    font-size: 18px;
+  }
+}
+
+/* label color */
+.input-field label {
+  color: black !important;
+  font-family: "kahve-diyari-thin", sans-serif;
+}
+
+.row .ort {
+  width: 65%;
+  width: 56%;
+  margin-right: 800px;
+}
+
+.input-field {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-field > label {
+  top: -25px;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: black;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: black;
+}
+.input-field a {
+  font-family: "kahve-diyari", sans-serif;
+}
+.browser-default {
+  width: 40% !important;
+  font-family: "kahve-diyari", sans-serif;
+}
+.form-headline {
+  font-family: "VAGRoundedBT", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #00524d;
+}
+.form-title {
+  color: #d98833;
+  font-size: 18px;
+  font-family: "kahve-diyari", sans-serif;
+  font-weight: 200;
+}
+.form-summary {
+  font-family: "kahve-diyari", sans-serif;
+}
+.catolog {
+  text-decoration: none;
+  width: 10px;
+}
+.catolog a {
+  font-family: "VAGRoundedBT", sans-serif;
+  font-size: large;
+  color: white !important;
+  background-color: #dd8c33;
+  border: 1px solid #dd8c33;
+  width: 10px;
+  padding: 12px 24px;
+}
+
+.catolog p {
+  padding: 25px;
+  margin: 15px !important;
+}
+@media screen and (max-width: 768px) {
+  .catalog p {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+button {
+  color: white !important;
+  background-color: #dd8c33;
+  font-family: "VAGRoundedBT", sans-serif;
+  border: 1px solid #dd8c33;
+  margin: 15px;
+}
+.btn,
+.btn-large,
+.btn-small {
+  background-color: #d98833 !important;
+  color: white !important;
+}
+.gönder {
+  color: white;
+  background-color: #dd8c33;
+}
+.responsive-img {
+  vertical-align: bottom;
+}
+.responsive-img img {
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.online-refer {
+  max-width: 60px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 2;
+}
+.online-refer a {
+  outline: none !important;
+  cursor: pointer;
+}
+/**/

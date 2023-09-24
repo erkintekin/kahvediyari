@@ -1,0 +1,563 @@
+@font-face {
+  font-family: "Awesome";
+  src: url(./fontawesome-webfont.woff2);
+}
+@font-face {
+  font-family: "Vag";
+  src: url(./Vag.woff2);
+}
+@font-face {
+  font-family: "VagBT";
+  src: url(./VAGRoundedBT.woff2);
+}
+@font-face {
+  font-family: "kahve-diyari";
+  src: url(./VAGRON.TTF);
+}
+@font-face {
+  font-family: "kahve-diyari-thin";
+  src: url(./Monotype\ \ -\ VAG\ Rounded\ Next\ Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*NAVBAR BAŞLANGIÇ*/
+.navbar a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* navbar-- */
+nav {
+  padding-top: 10px;
+  min-height: 124px;
+  font-family: "VAGRoundedBT", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+.logo {
+  padding: 0;
+  margin-left: 200px;
+}
+
+.nav-right {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menus li {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "kahve-diyari", sans-serif;
+}
+
+.cizgi {
+  width: 32px;
+  height: 22px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+}
+.middle {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+  top: 9px;
+}
+.bottom {
+  width: 100%;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+  background-color: #00524d;
+  top: 18px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.languages li {
+  display: inline-block;
+  font-size: 18px;
+}
+nav a {
+  color: #00524d !important;
+}
+
+/*NAVBAR BİTİŞ*/
+
+/*Mobil Araç*/
+.mobilarac {
+  background-color: rgb(221, 140, 51);
+  height: 250px;
+  color: white;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 140px;
+}
+
+.mobilarac a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.orangepace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.orangepace img {
+  display: flex;
+  object-fit: cover;
+  width: 653px;
+  height: 361px;
+  margin: auto;
+  justify-content: right;
+  position: absolute;
+  right: 6%;
+}
+
+.orangepace h1 {
+  margin-left: 260px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  font-size: 42px;
+  font-family: "VagBT", sans-serif;
+}
+
+.orangepace p {
+  text-align: center;
+  margin-left: -1020px;
+}
+
+/**/
+
+/*Slider Başlangıç*/
+.carousel {
+  height: 395px;
+  margin-bottom: 125px;
+  margin-top: 350px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 600px !important;
+}
+
+.card {
+  display: flex !important;
+  margin: 20px;
+}
+
+.carousel-control-next {
+  width: 3% !important;
+  margin-left: 45px !important;
+  margin-right: 45px !important;
+}
+
+.carousel-control-prev {
+  width: 3% !important;
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.card a {
+  width: 100% !important;
+  height: 1100px !important;
+  object-fit: fill !important;
+}
+/*Slider Bitiş*/
+
+/*Konsept Başlangıç*/
+
+.baslik {
+  max-width: 365px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 82, 77);
+  font-size: 42px;
+  text-align: center;
+  font-family: "VagBT", sans-serif;
+}
+
+.orta {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.orta-left {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.orta-mid {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.orta-right {
+  width: 441.333px;
+  height: 600px;
+  position: relative;
+}
+
+.content {
+  max-width: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content::before {
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(https://www.kahvediyari.com.tr/images/fon-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.content-mid {
+  max-width: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content-mid::before {
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(https://www.kahvediyari.com.tr/images/fon-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.icon {
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: 3;
+  transform: translateX(-50%);
+}
+
+.icon img {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 13px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+.info span {
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Vag" sans-serif;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.info strong {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: "VagBT", sans-serif;
+}
+
+.info a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "VagBT", sans-serif;
+}
+
+.icon-tikla {
+  width: auto;
+  display: block;
+  float: right;
+  margin-right: 25px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px "Awesome";
+  font-family: "Awesome";
+}
+
+.fa.fa-angle-right {
+  margin-left: 10px;
+  font-size: 35px;
+  display: inline-block;
+  font: normal;
+  text-rendering: auto;
+}
+
+.fa.fa-angle-right::before {
+  content: "\f105";
+}
+
+/*Konsept Bitiş*/
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: 700px;
+  padding: 100px 0;
+  background-color: #00524d;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+}
+footer a {
+  color: white;
+}
+.footer-menu {
+  width: 100%;
+  height: 600px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info {
+  max-width: 340px;
+}
+.footer-links a {
+  text-decoration: none !important;
+}
+.phone a {
+  text-decoration: none !important;
+}
+.footer-links li a:hover {
+  color: #dd8c33;
+}
+footer .footer-menu .footer-info p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.footer-info .social-medias i {
+  font-size: 35px;
+}
+
+.footer-info .phone {
+  font-size: 25px;
+  font-family: "kahve-diyari";
+}
+
+.footer-links .bayi-giris {
+  background-color: #dd8c33;
+  color: white;
+  padding: 15px 40px;
+}
+
+footer .footer-menu .social-medias li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-links ul {
+  margin-bottom: 50px;
+  padding: 0;
+}
+.footer-links {
+  width: 265px;
+}
+footer .footer-links li {
+  margin-top: 10px;
+}
+
+.footer-area {
+  text-align: right;
+}
+.footer-area .mobil-uygulama {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "kahve-diyari", sans-serif;
+}
+.footer-area p {
+  color: #d98833;
+  margin-bottom: 100px;
+}
+.footer-area li {
+  display: inline-block;
+}
+
+.copywright-kahve {
+  overflow: hidden;
+  padding: 30px 30px;
+  font-size: 18px;
+  display: flex;
+}
+
+.responsive-img {
+  vertical-align: bottom;
+}
+.responsive-img img {
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.online-refer {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  right: 0 !important;
+  top: 50%;
+  z-index: 1;
+  overflow: hidden !important;
+}
+.online-refer a {
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1120px) {
+  .menus {
+    display: none;
+  }
+  .nav-right {
+    width: 50%;
+  }
+
+  footer {
+    padding-top: 50px;
+    height: 1090px;
+  }
+  .footer-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+    font-size: 14.5px;
+    text-align: center;
+  }
+  .footer-info {
+    margin: auto;
+  }
+
+  .footer-links {
+    margin: auto;
+  }
+  .footer-area {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .footer-area p {
+    margin-bottom: 25px;
+  }
+  .copywright-kahve {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-right {
+    display: block;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar .phone {
+    display: none;
+  }
+  .footer-info .social-medias i {
+    font-size: 18px;
+  }
+}

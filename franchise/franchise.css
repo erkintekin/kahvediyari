@@ -1,0 +1,207 @@
+* {
+  font-family: "VAGRoundedBT", sans-serif;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+/* franchise */
+
+@font-face {
+  font-family: "VAGRoundedBT";
+  src: url("./VAGRoundedBT.woff2") format("woff2");
+}
+@font-face {
+  font-family: kahve-diyari;
+  src: url("./Vag.woff2") format("woff2");
+}
+@font-face {
+  font-family: kahve-diyari-thin;
+  src: url(./Monotype\ \ -\ VAG\ Rounded\ Next\ Light.otf);
+}
+
+/* header */
+.container-header {
+  overflow: hidden;
+  text-align: center;
+  background-color: #06514d;
+}
+.container-header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 70%;
+}
+.footer-links li a:hover {
+  color: #dd8c33;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.content-breadcrumb {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  text-align: left;
+}
+.content-breadcrumb li a {
+  display: inline-block;
+  color: #ffffff;
+  outline: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "kahve-diyari-thin" !important;
+  list-style: none;
+  text-decoration: none;
+}
+.content-title {
+  margin: 0;
+  color: #ffffff;
+  font-family: "kahve-diyari-thin";
+  font-size: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: normal;
+  font-weight: 400;
+}
+
+.content-title::after {
+  width: 100%;
+  color: #06514d;
+  font-size: 90px;
+  line-height: 90px;
+  font-family: "kahve-diyari";
+  position: absolute;
+  left: 0;
+  top: -50%;
+  z-index: -1;
+  content: attr(data-headline);
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+}
+
+/* label color */
+.input-field label {
+  color: black !important;
+  font-family: "kahve-diyari", sans-serif;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: black;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: black;
+}
+.input-field a {
+  font-family: "kahve-diyari", sans-serif;
+}
+.browser-default {
+  width: 40% !important;
+  font-family: "kahve-diyari", sans-serif;
+}
+.form-headline {
+  font-family: "VAGRoundedBT", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #00524d;
+}
+.form-title {
+  color: #d98833;
+  font-size: 18px;
+  font-family: "kahve-diyari", sans-serif;
+  font-weight: 200;
+}
+.form-summary {
+  font-family: "kahve-diyari", sans-serif;
+}
+.catolog {
+  text-decoration: none;
+  width: 10px;
+}
+.catolog a {
+  font-family: "VAGRoundedBT", sans-serif;
+  font-size: large;
+  color: white !important;
+  background-color: #dd8c33;
+  border: 1px solid #dd8c33;
+  width: 10px;
+  padding: 12px 24px;
+}
+
+.catolog p {
+  padding: 25px;
+  margin: 15px !important;
+}
+@media screen and (max-width: 768px) {
+  .catalog p {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+button {
+  color: white !important;
+  background-color: #dd8c33;
+  font-family: "VAGRoundedBT", sans-serif;
+  border: 1px solid #dd8c33;
+  margin: 15px;
+}
+.btn,
+.btn-large,
+.btn-small {
+  background-color: #d98833 !important;
+  color: white !important;
+}
+.gönder {
+  color: white;
+  background-color: #dd8c33;
+}
+.responsive-img {
+  vertical-align: bottom;
+}
+.responsive-img img {
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.online-refer {
+  max-width: 45px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 2;
+}
+.online-refer a {
+  outline: none !important;
+  cursor: pointer;
+}

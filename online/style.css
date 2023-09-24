@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.ustalan
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 39px;
+    background-color: #ebebeb;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.icalan
+{
+    padding: 58px;
+    font-family: 'Poppins', sans-serif;
+}
+div.icalan-end
+{
+    padding: 118px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+
+}
+
+h6
+{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.container-fluid
+{
+    /* border: 1px solid black; */
+    display: inline-flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ortamenu
+{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 10px;
+}
+.menubar a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menubar a:hover
+{
+    text-decoration: none;
+    color: #D69453;
+    border-bottom: 3px solid;
+    transition: 0.2s;
+}
+
+.dortkutu1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0;
+    margin: 0;
+}
+.dortkutu img
+{
+    height: 190px;
+}
+.dortkutu2
+{
+    border: 0.1px solid gray;
+    height: 370px;
+    width: 280px;
+    margin-left: 10px;
+    border-radius: 2%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}   
+.dortkutu2:hover
+{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(208, 199, 199, 0.2), 0 6px 20px 0 rgba(208, 199, 199, 0.2);
+}
+
+.dortkutu3
+{
+    border: 0.1px solid gray;
+    height: 310px;
+    width: 280px;
+    margin-left: 10px;
+    border-radius: 2%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+}  
+.dortkutu3:hover
+{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(208, 199, 199, 0.2), 0 6px 20px 0 rgba(208, 199, 199, 0.2);
+}
+
+.dortkutu1iciust
+{
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 28px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.dortkutu1iciustsag
+{
+    border: 1px solid #D69453;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 28px;
+    margin: 10px;
+    background-color: #D69453;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.dortkutu1iciorta img
+{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.dortkutu1icialt
+{
+    z-index: 1;
+    position: absolute;
+    bottom: 75px;
+    font-size:x-small;
+    margin: auto;
+}
+.ustucizili
+{
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: x-small;
+    text-decoration: line-through;
+}
+.tl
+{
+    z-index: 1;
+    position: absolute;
+    bottom: 8px;
+    left: 60px;
+    font-weight: bold;
+}
+.kalp2
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+}
+.cizgi
+{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sol
+{
+    width: 100%;
+}
+.sag
+{
+    width: 100%;
+}
+.orta
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
